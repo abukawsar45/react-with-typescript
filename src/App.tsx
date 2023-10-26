@@ -1,24 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  let name: string;
+  let age: string;
+  let isStudent: boolean;
+  let hobbies: string[];
+  let role: [number, string];
+
+  type person = {
+    name: string;
+    age: number;
+  };
+
+  let person: person = {
+    name: 'aks',
+    age: 23,
+  }
+
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+     <h3>asdf787</h3>
     </div>
   );
 }
