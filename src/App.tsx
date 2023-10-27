@@ -8,15 +8,26 @@ function App() {
   let hobbies: string[];
   let role: [number, string];
 
+  // role = [4, '34']
+
   type person = {
     name: string;
-    age: number;
+    age?: number;
   };
-
   let person: person = {
     name: 'aks',
     age: 23,
+  };
+
+  let lotsOfPeople: person[];
+  // People: person[];
+    
+
+  function PrintName(name:string) {
+     
+    console.log(name)
   }
+  PrintName('4546')
 
   
   return (
